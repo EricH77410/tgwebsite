@@ -6,6 +6,8 @@
     "react-scripts": "1.0.17"
   },
   "dependencies": {
+    "node-sass": "^4.7.2",
+    "node-sass-chokidar": "^0.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
@@ -13,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile:sass": "node-sass src/sass/index.scss public/css/index.css -w"
   }
 }

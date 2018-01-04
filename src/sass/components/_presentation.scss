@@ -1,0 +1,12 @@
+.presentation {
+    background-color: $color-white;
+    padding: 5rem;
+    width: 80%;
+    margin: 0 auto;
+    @include shadow;
+    font-size: 1.5rem;
+
+    &__img-sms {
+        text-align: center;
+    }
+}
