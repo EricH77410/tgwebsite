@@ -92,7 +92,11 @@ export default class Services extends Component {
                     </div>   
                     <h3>Ce qu'ils en pensent</h3>
                     {renderStories}
+                </div>
 
+                <div className="row">
+                    <h2>Notre offre</h2>
+                    {renderServices}
                 </div>
             </div>
             
